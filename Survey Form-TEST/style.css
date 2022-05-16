@@ -1,0 +1,104 @@
+body {
+  max-width: 1440px;
+  max-height: auto;
+  margin: auto;
+  color: white;
+  background: url(img/1622270574_8-phonoteka_org-p-programmist-arti-krasivo-8.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.form-text-one {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.form-text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: -10px;
+  margin-left: -40px;
+}
+.block-form {
+  max-height: auto;
+  margin: auto;
+  width: 800px;
+  opacity: 0.7;
+  background-color: rgb(8, 5, 37);
+}
+.input-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 30px 0px 30px;
+}
+.input-block {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 730px;
+  height: 40px;
+  padding: 0px 0px 0px 20px;
+  margin: 0px 30px 0px 30px;
+  border-radius: 10px;
+  border-color: blue;
+}
+.block-radio {
+  width: 20px;
+  height: 20px;
+}
+.input-text-radio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 30px 0px 30px;
+}
+.block-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+}
+.block-checkbox-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 30px 0px 5px;
+}
+.block-forma {
+  width: 730px;
+  height: 150px;
+  resize: none;
+  margin-left: 30px;
+}
+::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 15px 0px 0px 10px;
+}
+.button-id-submit {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  width: 737px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: rgb(6, 182, 6);
+}
+@media (max-width: 651px) {
+  .form-text-one {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 651px) {
+  .form-text {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 651px) {
+  .block-form {
+    opacity: 1;
+  }
+}

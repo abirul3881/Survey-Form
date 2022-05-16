@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <h1 class="form-text-one" id="title">Abirul Survey Form (Test)</h1>
+    <p class="form-text" id="description">
+      <em>Thank you for taking the time to help us improve the platform</em>
+    </p>
+    <div class="block-form">
+      <form action="#" id="survey-form">
+        <p class="input-text">Name</p>
+        <input
+          type="name"
+          required="name"
+          id="name"
+          placeholder="Enter your name"
+          class="input-block"
+        />
+        <p class="input-text">Email</p>
+        <input
+          type="email"
+          required="email"
+          id="email"
+          placeholder="Enter your email"
+          class="input-block"
+        />
+        <p class="input-text">Age (optional)</p>
+        <input
+          type="number"
+          name="num"
+          id="number"
+          min="0"
+          max="150"
+          placeholder="Age"
+          class="input-block"
+        />
+        <p class="input-text">Which option best describes your current role?</p>
+        <select
+          name="user_profile_color_2"
+          required="required"
+          class="input-block"
+        >
+          <option value="">Select an option</option>
+          <option value="1">Student</option>
+          <option value="2">Full Time Job</option>
+          <option value="3">Full Time Learnen</option>
+          <option value="4">Prefer not to say</option>
+          <option value="5">Other</option>
+        </select>
+        <p class="input-text">Would you recommend freeCodeCamp to a friend?</p>
+        <p class="input-text-radio">
+          <input
+            type="radio"
+            name="recomendeit"
+            value="Definitely"
+            class="block-radio"
+          />
+          Definitely
+        </p>
+        <p class="input-text-radio">
+          <input
+            type="radio"
+            name="recomendeit"
+            value="Maybe"
+            class="block-radio"
+          />
+          Maybe
+        </p>
+        <p class="input-text-radio">
+          <input
+            type="radio"
+            name="recomendeit"
+            value="Not sure"
+            class="block-radio"
+          />
+          Not sure
+        </p>
+        <p class="input-text">What is your favorite feature of freeCodeCamp?</p>
+        <select
+          id="dropdown"
+          name="user_profile_color_2"
+          required="required"
+          class="input-block"
+        >
+          <option value="">Select an option</option>
+          <option value="6">Challenges</option>
+          <option value="7">Projects</option>
+          <option value="8">Community</option>
+          <option value="9">Open Source</option>
+        </select>
+        <p class="input-text">
+          What would you like to see improved? (Check all that apply)
+        </p>
+        <input
+          type="checkbox"
+          id="Front-end Projects"
+          class="block-checkbox"
+          value="one"
+        />
+        <label for="checkbox-form" class="block-checkbox-text"
+          >Front-end Projects</label
+        >
+        <br />
+        <input
+          type="checkbox"
+          id="Back-end Projects"
+          class="block-checkbox"
+          value="two"
+        />
+        <label for="checkbox-form" id="name-label" class="block-checkbox-text"
+          >Back-end Projects</label
+        >
+        <br />
+        <input
+          type="checkbox"
+          id="Data Visualization"
+          class="block-checkbox"
+          value="three"
+        />
+        <label for="checkbox-form" id="email-label" class="block-checkbox-text"
+          >Data Visualization</label
+        >
+        <br />
+        <input
+          type="checkbox"
+          id="Challenges"
+          class="block-checkbox"
+          value="four"
+        />
+        <label for="checkbox-form" class="block-checkbox-text"
+          >Challenges</label
+        >
+        <br />
+        <input
+          type="checkbox"
+          id="Open Source Community"
+          class="block-checkbox"
+          value="five"
+        />
+        <label for="checkbox-form" id="number-label" class="block-checkbox-text"
+          >Open Source Community</label
+        >
+        <br />
+        <input
+          type="checkbox"
+          id="Gitter help rooms"
+          class="block-checkbox"
+          value="six"
+        />
+        <label for="checkbox-form" class="block-checkbox-text"
+          >Gitter help rooms</label
+        >
+        <br />
+        <input
+          type="checkbox"
+          id="Videos"
+          class="block-checkbox"
+          value="seven"
+        />
+        <label for="checkbox-form" class="block-checkbox-text">Videos</label>
+        <br />
+        <input
+          type="checkbox"
+          id="City Meetups"
+          class="block-checkbox"
+          value="eitn"
+        />
+        <label for="checkbox-form" class="block-checkbox-text"
+          >City Meetups</label
+        >
+        <br />
+        <input type="checkbox" id="Wiki" class="block-checkbox" value="ten" />
+        <label for="checkbox-form" class="block-checkbox-text">Wiki</label>
+        <br />
+        <input
+          type="checkbox"
+          id="Forum"
+          class="block-checkbox"
+          value="tenone"
+        />
+        <label for="checkbox-form" class="block-checkbox-text">Forum</label>
+        <br />
+        <input
+          type="checkbox"
+          id="Additional Courses"
+          class="block-checkbox"
+          value="tentwo"
+        />
+        <label for="checkbox-form" class="block-checkbox-text"
+          >Additional Courses</label
+        >
+        <br />
+        <p class="input-text">Any comments or suggestions?</p>
+        <textarea
+          name="survey-form"
+          id="forma"
+          cols="30"
+          rows="10"
+          placeholder="Enter your comment here..."
+          class="block-forma"
+        ></textarea>
+        <input
+          type="submit"
+          id="submit"
+          value="Submit"
+          class="button-id-submit"
+        />
+      </form>
+    </div>
+  </body>
+</html>
